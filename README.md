@@ -20,3 +20,6 @@ As the XGBoost model has a slightly better fitting, I proceeded to pickle this m
 I then ran .predict_proba to have the ability to filter for higher confidence predictions. 
 - When filtering to a 20% threshold of the prediction there is a boost in accuracy to 89% for win, and 95% for loss prediction. 
 - Note that only certain games in a week will meet this threshold.  This tool has not been tested in season with bets, but could be a useful tool with some more tuning. 
+
+Compare the results to ground truth;
+![how often does the home team win](https://user-images.githubusercontent.com/3197895/112232870-94d2f100-8bf6-11eb-87ca-ffe5df163f64.png)
